@@ -27,9 +27,7 @@ namespace TCPClientWithUI
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Tasarımcı desteği için gerekli metot - kod düzenleyicide değiştirmeyin.
-        /// </summary>
+        
         private void InitializeComponent()
         {
             btnConnect = new Button();

@@ -81,19 +81,18 @@ namespace TCPClientWithUI
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // Baþlangýçta lblStatus1'i "Bekliyor..." olarak ayarlayýn
-            lblStatus1.Text = "Bekliyor...";
+           
 
             try
             {
-                // Baðlantýyý kurmaya çalýþýn (örnek olarak TcpClient baðlantýsý)
+                // Baðlantýyý kurmaya çalýþ
                 if (client != null && client.Connected)
                 {
-                    lblStatus1.Text = "Baðlantý baþarýlý!"; // Baðlantý baþarýlý ise mesajý deðiþtir
+                    lblStatus1.Text = "Baðlantý baþarýlý!"; // Baðlantý baþarýlý ise 
                 }
                 else
                 {
-                    // Baðlantý saðlanamazsa hata mesajý
+                    // Baðlantý saðlanamazsa 
                     lblStatus1.Text = "Baðlantý baþarýsýz!";
                 }
             }
